@@ -22,12 +22,13 @@ export default class Section1 extends Component {
     return (
       <div>
         <div className="mainContainer">
-          <div class="navbar">
-            <div class="logo">
-              <img src={logo}></img>
+          {/* Navbar code starts here */}
+          <div className="navbar">
+            <div className="logo">
+              <img src={logo} />
             </div>
-            <ul class="nav-links">
-              <div class="menu">
+            <ul className="nav-links">
+              <div className="menu">
                 <li>
                   <a href="/">Location</a>
                 </li>
@@ -43,6 +44,8 @@ export default class Section1 extends Component {
               </div>
             </ul>
           </div>
+          {/* Navbar code ends here */}
+          {/* Homepage code starts from here */}
           <div className="Navbar-homePage">
             <div className="homePage-Leftside">
               <div className="homePage-Mainhead">
@@ -61,6 +64,8 @@ export default class Section1 extends Component {
               <img src={homepageimage1}></img>
             </div>
           </div>
+          {/* Homepage code ends here */}
+          {/* Section2 starts from here  */}
           <div className="Threethingslist">
             <div className="Threethingslist1">
               <div class="logo">
@@ -74,7 +79,7 @@ export default class Section1 extends Component {
               <a className="Threethingslist1-Link">Read More</a>
             </div>
             <div className="Threethingslist2">
-              <div class="logo">
+              <div className="logo">
                 <img src={shoe}></img>
               </div>
               <div className="Threethingslist2-head">Safe Adventure</div>
@@ -85,8 +90,8 @@ export default class Section1 extends Component {
               <a className="Threethingslist1-Link">Read More</a>
             </div>
             <div className="Threethingslist3">
-              <div class="logo">
-                <img src={bag}></img>
+              <div className="logo">
+                <img src={bag} />
               </div>
               <div className="Threethingslist3-head">Professional Killers</div>
               <div className="Threethingslist3-content">
@@ -96,11 +101,15 @@ export default class Section1 extends Component {
               <a className="Threethingslist1-Link">Read More</a>
             </div>
           </div>
+          {/* Section2 ends here  */}
+          {/* Explore code starts here */}
           <div className="Explore">
             Don't hesitate to contact us to get better Information.{" "}
             <i className="Explore-italics">Explore All TREKKING.</i>
           </div>
+          {/* Explore code ends here */}
         </div>
+        {/* safe and affordable section starts here */}
         <div className="safeandaffordablebg">
           <div className="safeandaffordablebg-homePage">
             <div className="safeandaffordablebg-rightSide">
@@ -123,29 +132,34 @@ export default class Section1 extends Component {
             </div>
           </div>
         </div>
+        {/* safe and affordable section ends here */}
+        {/* Trusted companies start here */}
         <div className="Explore-2">
           <p className="safeJourney">Safe Journey</p>
           <p className="Trustedbbc">Trusted by Big Companies </p>
         </div>
+
         <div className="Companies">
-          <div class="Companiesimg">
-            <img src={travelAdvisor}></img>
+          <div className="Companiesimg">
+            <img src={travelAdvisor} />
           </div>
-          <div class="Companiesimg4">
-            <img src={unitedTravel}></img>
+          <div className="Companiesimg4">
+            <img src={unitedTravel} />
           </div>
-          <div class="Companiesimg1">
-            <img src={travelChannel}></img>
+          <div className="Companiesimg1">
+            <img src={travelChannel} />
           </div>
         </div>
         <div className="Companies1">
-          <div class="Companiesimg3">
+          <div className="Companiesimg3">
             <img src={tripraja}></img>
           </div>
-          <div class="Companiesimg5">
+          <div className="Companiesimg5">
             <img src={Booking}></img>
           </div>
         </div>
+        {/* Trusted companies ends here */}
+        {/* Enjoy life section starts here */}
         <div className="Enjoylifenow">
           <div className="Enjoylifenow-homePage">
             <div className="Enjoylifenow-Leftside">
@@ -162,11 +176,14 @@ export default class Section1 extends Component {
               </div>
             </div>
             <div className="Enjoylifenow-rightSide">
-              <img src={enjoyurlife}></img>
+              <img src={enjoyurlife} />
             </div>
           </div>
         </div>
+        {/* Enjoy life section ends here */}
+
         <div className="Explore-2"></div>
+        {/* Let us enjoy nature code starts from here */}
         <div className="letusenjoy">
           <div className="letusenjoy-homePage">
             <div className="letusenjoy-rightSide">
@@ -189,11 +206,15 @@ export default class Section1 extends Component {
             </div>
           </div>
         </div>
+        {/* Let us enjoy nature code ends from here */}
+        {/* slider starts here */}
         <div className="Explore-2">
           <p className="safeJourney">Happy Hikers</p>
           <p className="Trustedbbc">Client's Say About Us </p>
-        <div>Need to implement slider here</div>
+          <div>Need to implement slider here</div>
         </div>
+        {/* slider ends here */}
+        {/* Footer code starts here */}
         <div className="Footer">
           <div className="Footer-matter">
             <div className="Footer-Header">
@@ -211,7 +232,7 @@ export default class Section1 extends Component {
           </div>
           <div className="Footerlast">
             <div className="highking">
-              <div class="logo">
+              <div className="logo">
                 <img src={logo}></img>
               </div>
               <div className="highking-content">
@@ -219,33 +240,33 @@ export default class Section1 extends Component {
                 hiking community.
               </div>
               <div className="highking-icons">
-                <div >
-                  <img src={facebook} class="highking-icons1"></img>
-                </div>
-                <div >
-                  <img src={twitter} class="highking-icons1"></img>
+                <div>
+                  <img src={facebook} class="highking-icons1" />
                 </div>
                 <div>
-                  <img src={insta} class="highking-icons1"></img>
+                  <img src={twitter} class="highking-icons1" />
+                </div>
+                <div>
+                  <img src={insta} class="highking-icons1" />
                 </div>
               </div>
             </div>
             <div className="location">
-                <b className="linkshead">Location</b>
+              <b className="linkshead">Location</b>
               <a className="links">America</a>
               <a className="links">Asia</a>
               <a className="links">Europe</a>
               <a className="links">Africa</a>
             </div>
             <div className="contact">
-                <b className="linkshead">Contact</b>
+              <b className="linkshead">Contact</b>
               <a className="links">About Me</a>
               <a className="links">Teams</a>
               <a className="links">Profile</a>
               <a className="links">FAQ</a>
             </div>
             <div className="legals">
-            <b className="linkshead">Legals</b>
+              <b className="linkshead">Legals</b>
               <a className="links">Privacy</a>
               <a className="links">Disclaimer</a>
               <a className="links">Terms</a>
@@ -253,9 +274,10 @@ export default class Section1 extends Component {
             </div>
           </div>
           <div className="copyrights">
-          Copyright © 2021. All Right Reserved.
+            Copyright © 2021. All Right Reserved.
           </div>
         </div>
+        {/* Footer code ends here */}
       </div>
     );
   }

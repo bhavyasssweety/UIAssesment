@@ -74,7 +74,7 @@ li {
   padding-top: 5%;
 }
 .homePage-buttons1 {
-  background-color: #3e82fc; /* Green */
+  background-color: #3e82fc;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -115,16 +115,11 @@ li {
   margin: auto;
   text-align: left;
   margin-top: 5%;
-  /* box-shadow: 10px 10px lightblue; */
   box-shadow: 0px 54px 104px 0px #0000000a;
-
-  /* padding: 10%; */
-  /* background-color: #3E82FC; */
 }
 .Threethingslist1 {
   padding: 5%;
   width: 45%;
-  /* background-color: #3E82FC; */
 }
 .Threethingslist1-head {
   font-size: 24px;
@@ -140,7 +135,6 @@ li {
 }
 .Threethingslist2 {
   padding: 5%;
-  /* width: 45%; */
 }
 .Threethingslist2-head {
   font-size: 24px;
@@ -156,7 +150,6 @@ li {
 }
 .Threethingslist3 {
   padding: 5%;
-  /* width: 45%; */
 }
 .Threethingslist3-head {
   font-size: 24px;
@@ -172,7 +165,7 @@ li {
 }
 .Threethingslist1-Link {
   text-decoration: underline;
-  color: #FE2C54;
+  color: #fe2c54;
   cursor: pointer;
   font-size: 18px;
 }
@@ -180,23 +173,20 @@ li {
   padding: 5%;
   padding-bottom: 10%;
   font-size: 18px;
-  color: #5D616F;
+  color: #5d616f;
 }
 .Explore-italics {
   font-weight: 700;
-  color: #FE2C54;
+  color: #fe2c54;
   cursor: pointer;
 }
 .safeandaffordablebg {
   background-image: url("../assets/safe\ and\ affordable\ bg.png");
-  /* background-repeat: no-repeat; */
-  /* background-size: cover; */
 }
 .safeandaffordablebg-homePage {
   display: flex;
   flex-direction: row;
   padding-left: 10%;
-  /* padding-top: 5%; */
   padding-bottom: 2%;
   padding-right: 10%;
   text-align: left;
@@ -204,8 +194,6 @@ li {
 .safeandaffordablebg-rightSide {
   width: 488px;
   height: 662px;
-  /* padding-top: 7%; */
-  /* padding-left: 8%; */
 }
 .safeandaffordablebg-Leftside {
   display: flex;
@@ -217,7 +205,6 @@ li {
   font-size: 62px;
   font-weight: bolder;
   width: 85%;
-  /* background-color: #3E82FC; */
 }
 .safeandaffordablebg-Normalhead {
   width: 55%;
@@ -232,7 +219,7 @@ li {
   padding-top: 5%;
 }
 .safeandaffordablebg-buttons1 {
-  background-color: #3e82fc; /* Green */
+  background-color: #3e82fc;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -267,7 +254,6 @@ li {
   flex-wrap: wrap;
   padding-left: 15%;
   padding-right: 15%;
-  /* background-color: #3E82FC; */
 }
 .Companies1 {
   display: flex;
@@ -276,17 +262,14 @@ li {
   padding-left: 15%;
   padding-right: 15%;
   padding-bottom: 7%;
-  /* background-color: #3E82FC; */
 }
 .Companiesimg {
   padding-right: 7%;
   padding-bottom: 10%;
-  /* background-color: #3E82FC; */
 }
 .Companiesimg4 {
   padding-right: 7%;
   padding-bottom: 10%;
-  /* background-color: #3E82FC; */
   margin-top: 2px;
 }
 .Companiesimg1 {
@@ -296,7 +279,6 @@ li {
   text-align: right;
   padding-bottom: 10%;
   padding-left: 23%;
-  /* background-color: #3E82FC; */
 }
 .Companiesimg5 {
   text-align: left;
@@ -310,7 +292,6 @@ li {
   display: flex;
   flex-direction: row;
   padding-left: 10%;
-  /* padding-top: 5%; */
   padding-bottom: 2%;
   padding-right: 10%;
   text-align: left;
@@ -318,20 +299,16 @@ li {
 .Enjoylifenow-Leftside {
   display: flex;
   flex-direction: column;
-  /* padding-left: 12%; */
   padding-top: 7%;
 }
 .Enjoylifenow-rightSide {
   width: 488px;
   height: 662px;
-  /* padding-top: 7%; */
-  /* padding-left: 8%; */
 }
 .Enjoylifenow-Mainhead {
   font-size: 62px;
   font-weight: bolder;
   width: 75%;
-  /* background-color: #3E82FC; */
 }
 .Enjoylifenow-Normalhead {
   width: 45%;
@@ -346,7 +323,7 @@ li {
   padding-top: 5%;
 }
 .Enjoylifenow-buttons1 {
-  background-color: #3e82fc; /* Green */
+  background-color: #3e82fc;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -361,14 +338,11 @@ li {
 }
 .letusenjoy {
   background-image: url("../assets/lets\ enjoy\ nature\ with\ us\ bg\ .png");
-  /* background-repeat: no-repeat; */
-  /* background-size: cover; */
 }
 .letusenjoy-homePage {
   display: flex;
   flex-direction: row;
   padding-left: 10%;
-  /* padding-top: 5%; */
   padding-bottom: 2%;
   padding-right: 10%;
   text-align: left;
@@ -376,8 +350,6 @@ li {
 .letusenjoy-rightSide {
   width: 488px;
   height: 662px;
-  /* padding-top: 7%; */
-  /* padding-left: 8%; */
 }
 .letusenjoy-Leftside {
   display: flex;
@@ -389,7 +361,6 @@ li {
   font-size: 62px;
   font-weight: bolder;
   width: 90%;
-  /* background-color: #3E82FC; */
 }
 .letusenjoy-Normalhead {
   width: 55%;
@@ -406,7 +377,7 @@ li {
   padding-top: 5%;
 }
 .letusenjoy-buttons1 {
-  background-color: #3e82fc; /* Green */
+  background-color: #3e82fc;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -426,7 +397,6 @@ li {
   display: flex;
   justify-content: center !important;
   flex-direction: column;
-  /* width: 60%; */
   padding-left: 30%;
   padding-right: 30%;
   padding-top: 8%;
@@ -443,7 +413,7 @@ li {
   color: #5d616f;
 }
 .Email {
-  background-color: #3e82fc; /* Green */
+  background-color: #3e82fc;
   border: none;
   color: white;
   padding: 10px 32px;
@@ -462,10 +432,9 @@ li {
 }
 input[type="text"] {
   display: block;
-  /* outline: none */
   background-color: transparent;
   border-color: #3e82fc;
-  color:#3e82fc ;
+  color: #3e82fc;
   border-style: solid;
   border-radius: 25px;
   margin-bottom: 0.3rem;
@@ -473,14 +442,12 @@ input[type="text"] {
   width: 100%;
   margin-right: 10px;
   padding-left: 15px;
-  /* background-color: #ffffff; */
 }
 .Emailwrap {
   display: flex;
   flex-direction: row;
   padding-left: 5%;
   padding-right: 5%;
-  /* background-color: #3E82FC; */
 }
 .Footerlast {
   display: flex;
@@ -501,7 +468,7 @@ input[type="text"] {
   font-size: 20px;
   font-weight: 400;
   line-height: 30px;
-  color: #5D616F;
+  color: #5d616f;
 }
 .location {
   display: flex;
@@ -523,40 +490,35 @@ input[type="text"] {
   text-align: left;
   line-height: 26px;
   width: 20%;
-  /* background-color: #3e82fc; */
 }
-.highking-icons1
-{
-    width: 50px;
-    height:50px;
-    padding-right: 20px;
-    cursor: pointer;
+.highking-icons1 {
+  width: 50px;
+  height: 50px;
+  padding-right: 20px;
+  cursor: pointer;
 }
-.highking-icons{
-    display: flex;
-    flex-direction: row;
-    padding-top: 15%;
+.highking-icons {
+  display: flex;
+  flex-direction: row;
+  padding-top: 15%;
 }
-.linkshead
-{
-    font-size: 18px;
-    font-weight: 600;
-    padding-bottom: 25px;
+.linkshead {
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 25px;
 }
-.links
-{
-    font-size: 18px;
-    font-weight: 400;
-    padding-bottom: 25px;
-    color: #5D616F;
-    cursor: pointer;
+.links {
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 25px;
+  color: #5d616f;
+  cursor: pointer;
 }
-.copyrights
-{
-    padding-top: 6%;
-    padding-bottom: 3%;
-    font-size: 20px;
-    color: #5D616F;
+.copyrights {
+  padding-top: 6%;
+  padding-bottom: 3%;
+  font-size: 20px;
+  color: #5d616f;
 }
 @media screen and (max-width: 1310px) and (min-width: 320px) {
   .Navbar-rightSide {
