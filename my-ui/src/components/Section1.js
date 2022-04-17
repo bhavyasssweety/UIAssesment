@@ -13,6 +13,9 @@ import Booking from "../assets/Booking.svg";
 import safeatimg from "../assets/safe and affordable.png";
 import enjoyurlife from "../assets/enjoy your life.png";
 import enjoynature from "../assets/lets enjoy nature with us.png";
+import facebook from "../assets/facebook.svg";
+import twitter from "../assets/twitter.svg";
+import insta from "../assets/insta.svg";
 
 export default class Section1 extends Component {
   render() {
@@ -135,7 +138,7 @@ export default class Section1 extends Component {
             <img src={travelChannel}></img>
           </div>
         </div>
-        <div className="Companies">
+        <div className="Companies1">
           <div class="Companiesimg3">
             <img src={tripraja}></img>
           </div>
@@ -179,9 +182,6 @@ export default class Section1 extends Component {
                   forests designed specifically for college student groups and
                   young professionals.
                 </div>
-                <div class="logo">
-                  <img src={logo}></img>
-                </div>
               </div>
               <div className="letusenjoy-buttons">
                 <button className="letusenjoy-buttons1">Learn More</button>
@@ -192,6 +192,7 @@ export default class Section1 extends Component {
         <div className="Explore-2">
           <p className="safeJourney">Happy Hikers</p>
           <p className="Trustedbbc">Client's Say About Us </p>
+        <div>Need to implement slider here</div>
         </div>
         <div className="Footer">
           <div className="Footer-matter">
@@ -219,34 +220,40 @@ export default class Section1 extends Component {
               </div>
               <div className="highking-icons">
                 <div >
-                  <img src={safeatimg} class="highking-icons1"></img>
+                  <img src={facebook} class="highking-icons1"></img>
                 </div>
                 <div >
-                  <img src={safeatimg} class="highking-icons1"></img>
+                  <img src={twitter} class="highking-icons1"></img>
                 </div>
                 <div>
-                  <img src={safeatimg} class="highking-icons1"></img>
+                  <img src={insta} class="highking-icons1"></img>
                 </div>
               </div>
             </div>
             <div className="location">
-              <a>America</a>
-              <a>Asia</a>
-              <a>Europe</a>
-              <a>Africa</a>
+                <b className="linkshead">Location</b>
+              <a className="links">America</a>
+              <a className="links">Asia</a>
+              <a className="links">Europe</a>
+              <a className="links">Africa</a>
             </div>
             <div className="contact">
-              <a>About Me</a>
-              <a>Teams</a>
-              <a>Profile</a>
-              <a>FAQ</a>
+                <b className="linkshead">Contact</b>
+              <a className="links">About Me</a>
+              <a className="links">Teams</a>
+              <a className="links">Profile</a>
+              <a className="links">FAQ</a>
             </div>
             <div className="legals">
-              <a>Privacy</a>
-              <a>Disclaimer</a>
-              <a>Terms</a>
-              <a>Company</a>
+            <b className="linkshead">Legals</b>
+              <a className="links">Privacy</a>
+              <a className="links">Disclaimer</a>
+              <a className="links">Terms</a>
+              <a className="links">Company</a>
             </div>
+          </div>
+          <div className="copyrights">
+          Copyright © 2021. All Right Reserved.
           </div>
         </div>
       </div>
